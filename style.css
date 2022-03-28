@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body{
+    width: 970px;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.topHeader{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px;
+}
+
+.topHeader input{
+    width: 500px;
+    border-radius: 15%;
+}
+
+#logo{
+    background-color: #00d1b2;
+    transform: rotateY(180deg) rotateX(180deg);
+    
+}
+
+.subheader ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 5px solid black;
+    padding-bottom: 20px;
+}
+
+#shopMotto{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.topContainer{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.leftBox{
+    display: flex;
+    flex: 3;
+    padding-right: 20px;
+}
+
+.discover{
+    background-color: #00d1b2;
+    color: white;
+    text-align: center;
+    font-size: 23pt;
+}
+
+.discover p{
+    margin: 25px;
+}
+
+#discoverPhrase{
+    margin-bottom: 40px;
+}
+
+#discoverArrow{
+    width:30px;
+    height: auto;
+    position: relative;
+    top: 5px;
+}
+.rightBox{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.rightBox h2{
+    margin-top: 30px;
+    background-color: #00d1b2;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+#aloeArrow{
+    width: 30px;
+    height: auto;
+    position: relative;
+    top: 5px;
+}
+
+.bottomContainer{
+    display: flex;
+    background-color: #aae8d8;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+
+.plantPics{
+    width: 130px;
+    height: auto;
+}
+
+.bottomContainer p{
+    text-align: center;
+}
+
+.cookie{
+    display: flex;
+    border: 2px solid black;
+    padding: 30px;
+    justify-content: space-between;
+    position: fixed;
+    bottom: -24px;
+    left: 150px;
+    background-color: white;
+}
+
+#acceptButton{
+    background-color: #00d1b2;
+    width: 80px;
+    height: 30px;
+    box-shadow: 2px 2px 5px black;
+    margin-left: 30px;
+}
